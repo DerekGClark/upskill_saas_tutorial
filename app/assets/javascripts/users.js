@@ -16,7 +16,7 @@ $(document).on('turbolinks:load',function(){
     var ccNum = $('#card_number').val(),
         cvcNum = $('#card_code').val(),
         expMonth = $('#card_month').val(),
-        expYear = $('card_year').val();
+        expYear = $('#card_year').val();
         
     //Use Stripe JS library to check for card errors
     var error = false;
